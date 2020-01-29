@@ -1,0 +1,8 @@
+(module AD667_12-bit_DAC (layer F.Cu) (tedit 5E31E99D)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value AD667_12-bit_DAC (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

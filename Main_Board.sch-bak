@@ -37,10 +37,10 @@ F 3 "~" H 800 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LM723_TO100 +3V
+L Regulator_Linear:LM723_TO100 +3V1
 U 1 1 5DC1E1E9
 P 2100 1600
-F 0 "+3V" H 2050 1111 50  0000 C CNN
+F 0 "+3V1" H 2050 1111 50  0000 C CNN
 F 1 "LM723_TO100" H 2050 1020 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-100-10" H 2125 1250 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm723.pdf" H 2000 1500 50  0001 C CNN
@@ -157,10 +157,10 @@ Wire Wire Line
 Text Label 2750 1400 0    50   ~ 0
 +3V
 $Comp
-L Regulator_Linear:LM723_TO100 +5V
+L Regulator_Linear:LM723_TO100 +5V1
 U 1 1 5DC560BC
 P 4450 1550
-F 0 "+5V" H 4400 1061 50  0000 C CNN
+F 0 "+5V1" H 4400 1061 50  0000 C CNN
 F 1 "LM723_TO100" H 4400 970 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-100-10" H 4475 1200 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm723.pdf" H 4350 1450 50  0001 C CNN
@@ -297,10 +297,10 @@ Wire Wire Line
 Wire Wire Line
 	5400 1450 5400 1550
 $Comp
-L Regulator_Linear:LM723_TO100 -15V
+L Regulator_Linear:LM723_TO100 -15V1
 U 1 1 5DCB604F
 P 2400 4900
-F 0 "-15V" H 2350 4411 50  0000 C CNN
+F 0 "-15V1" H 2350 4411 50  0000 C CNN
 F 1 "LM723_TO100" H 2350 4320 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-100-10" H 2425 4550 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm723.pdf" H 2300 4800 50  0001 C CNN
@@ -308,10 +308,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm723.pdf" H 2300 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LM723_TO100 +15V
+L Regulator_Linear:LM723_TO100 +15V1
 U 1 1 5DCC3CB0
 P 8250 1700
-F 0 "+15V" H 8200 1211 50  0000 C CNN
+F 0 "+15V1" H 8200 1211 50  0000 C CNN
 F 1 "LM723_TO100" H 8200 1120 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-100-10" H 8275 1350 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm723.pdf" H 8150 1600 50  0001 C CNN
@@ -750,10 +750,10 @@ Wire Wire Line
 	4000 4500 4350 4500
 Connection ~ 4350 4500
 $Comp
-L Regulator_Linear:LM137_TO3 -5V
+L Regulator_Linear:LM137_TO3 -5V1
 U 1 1 5DE27506
 P 6750 4700
-F 0 "-5V" H 6750 4551 50  0000 C CNN
+F 0 "-5V1" H 6750 4551 50  0000 C CNN
 F 1 "LM137_TO3" H 6750 4460 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-39-3" H 6750 4500 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm337-n.pdf" H 6750 4700 50  0001 C CNN
@@ -862,10 +862,10 @@ Connection ~ 6750 3600
 Wire Wire Line
 	6750 3600 7150 3600
 $Comp
-L Regulator_Linear:LM137_TO3 -3V
+L Regulator_Linear:LM137_TO3 -3V1
 U 1 1 5DE61445
 P 9200 4700
-F 0 "-3V" H 9200 4551 50  0000 C CNN
+F 0 "-3V1" H 9200 4551 50  0000 C CNN
 F 1 "LM137_TO3" H 9200 4460 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-39-3" H 9200 4500 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm337-n.pdf" H 9200 4700 50  0001 C CNN
