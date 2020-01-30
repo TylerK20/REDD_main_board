@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name AD667_12-bit_DAC)(type Legacy)(uri ${KIPRJMOD}/REDD_main_board.pretty/AD667_12-bit_DAC.lib)(options "")(descr ""))
+)
