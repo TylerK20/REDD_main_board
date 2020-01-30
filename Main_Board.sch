@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Main_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -900,7 +901,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2850 3550 3600
 Text Label 3550 2800 0    50   ~ 0
-Vin
++15V
 Connection ~ 3300 2850
 Wire Wire Line
 	3000 2850 3300 2850
