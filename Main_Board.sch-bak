@@ -1132,7 +1132,7 @@ U 1 1 5E48CCC4
 P 10150 5550
 F 0 "Vin" H 10208 5668 50  0000 L CNN
 F 1 "TestPoint" H 10208 5577 50  0000 L CNN
-F 2 "" H 10350 5550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10350 5550 50  0001 C CNN
 F 3 "~" H 10350 5550 50  0001 C CNN
 	1    10150 5550
 	1    0    0    -1  
@@ -1143,7 +1143,7 @@ U 1 1 5E48DDB9
 P 10700 5550
 F 0 "GND" H 10758 5668 50  0000 L CNN
 F 1 "TestPoint" H 10758 5577 50  0000 L CNN
-F 2 "" H 10900 5550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10900 5550 50  0001 C CNN
 F 3 "~" H 10900 5550 50  0001 C CNN
 	1    10700 5550
 	1    0    0    -1  
@@ -1151,23 +1151,69 @@ $EndComp
 $Comp
 L Connector:TestPoint data_out
 U 1 1 5E48E098
-P 10700 5900
-F 0 "data_out" H 10758 6018 50  0000 L CNN
-F 1 "TestPoint" H 10758 5927 50  0000 L CNN
-F 2 "" H 10900 5900 50  0001 C CNN
-F 3 "~" H 10900 5900 50  0001 C CNN
-	1    10700 5900
+P 10700 5950
+F 0 "data_out" H 10758 6068 50  0000 L CNN
+F 1 "TestPoint" H 10758 5977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10900 5950 50  0001 C CNN
+F 3 "~" H 10900 5950 50  0001 C CNN
+	1    10700 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint data_in
 U 1 1 5E48E2AA
-P 10150 5900
-F 0 "data_in" H 10208 6018 50  0000 L CNN
-F 1 "TestPoint" H 10208 5927 50  0000 L CNN
-F 2 "" H 10350 5900 50  0001 C CNN
-F 3 "~" H 10350 5900 50  0001 C CNN
-	1    10150 5900
+P 10150 5950
+F 0 "data_in" H 10208 6068 50  0000 L CNN
+F 1 "TestPoint" H 10208 5977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10350 5950 50  0001 C CNN
+F 3 "~" H 10350 5950 50  0001 C CNN
+	1    10150 5950
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E4901A5
+P 10700 5550
+F 0 "#PWR?" H 10700 5300 50  0001 C CNN
+F 1 "GND" H 10705 5377 50  0000 C CNN
+F 2 "" H 10700 5550 50  0001 C CNN
+F 3 "" H 10700 5550 50  0001 C CNN
+	1    10700 5550
+	1    0    0    -1  
+$EndComp
+Text Label 10150 5650 0    50   ~ 0
+Vin
+Wire Wire Line
+	10150 5550 10150 5650
+Wire Wire Line
+	10150 5950 10150 6050
+Wire Wire Line
+	10700 5950 10700 6050
+Text Label 10150 6050 0    50   ~ 0
+Din
+Text Label 10700 6050 0    50   ~ 0
+Dout
+Text Label 9550 1150 0    50   ~ 0
++15V
+Text Label 9550 1250 0    50   ~ 0
++5V
+Text Label 9550 1350 0    50   ~ 0
++3V
+$Comp
+L power:GND #PWR?
+U 1 1 5E4B6CF3
+P 9650 1450
+F 0 "#PWR?" H 9650 1200 50  0001 C CNN
+F 1 "GND" H 9655 1277 50  0000 C CNN
+F 2 "" H 9650 1450 50  0001 C CNN
+F 3 "" H 9650 1450 50  0001 C CNN
+	1    9650 1450
+	0    1    1    0   
+$EndComp
+Text Label 9550 1550 0    50   ~ 0
+-3V
+Text Label 9550 1650 0    50   ~ 0
+-5V
+Text Label 9550 1750 0    50   ~ 0
+-15V
 $EndSCHEMATC

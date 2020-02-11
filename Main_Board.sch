@@ -1193,4 +1193,29 @@ Text Label 10150 6050 0    50   ~ 0
 Din
 Text Label 10700 6050 0    50   ~ 0
 Dout
+Text Label 9550 1150 0    50   ~ 0
++15V
+Text Label 9550 1250 0    50   ~ 0
++5V
+Text Label 9550 1350 0    50   ~ 0
++3V
+$Comp
+L power:GND #PWR?
+U 1 1 5E4B6CF3
+P 9650 1450
+F 0 "#PWR?" H 9650 1200 50  0001 C CNN
+F 1 "GND" H 9655 1277 50  0000 C CNN
+F 2 "" H 9650 1450 50  0001 C CNN
+F 3 "" H 9650 1450 50  0001 C CNN
+	1    9650 1450
+	0    1    1    0   
+$EndComp
+Text Label 9550 1550 0    50   ~ 0
+-3V
+Text Label 9550 1650 0    50   ~ 0
+-5V
+Text Label 9550 1750 0    50   ~ 0
+-15V
+Wire Wire Line
+	9550 1150 9800 1150
 $EndSCHEMATC
