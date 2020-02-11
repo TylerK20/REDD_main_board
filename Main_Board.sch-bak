@@ -1216,4 +1216,6 @@ Text Label 9550 1650 0    50   ~ 0
 -5V
 Text Label 9550 1750 0    50   ~ 0
 -15V
+Wire Wire Line
+	9550 1150 9800 1150
 $EndSCHEMATC
