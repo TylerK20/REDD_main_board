@@ -385,10 +385,6 @@ Wire Wire Line
 	7300 1350 7300 1450
 Wire Wire Line
 	7300 1450 7700 1450
-Wire Wire Line
-	7700 1350 7700 1450
-Wire Wire Line
-	7700 1850 8200 1850
 Connection ~ 8750 1850
 Wire Wire Line
 	8750 1850 9050 1850
@@ -692,8 +688,6 @@ Wire Wire Line
 Connection ~ 950  2500
 Wire Wire Line
 	6000 1400 6000 1900
-<<<<<<< HEAD
-=======
 $Comp
 L AD667_12-bit_DAC:AD667 U1
 U 1 1 5E33FF68
@@ -711,7 +705,6 @@ Wire Wire Line
 	4050 6100 4050 6200
 Wire Wire Line
 	4050 6200 4200 6200
->>>>>>> 6af647563c79b16c849df03644761f4e6566670c
 Wire Wire Line
 	4200 6500 3950 6500
 Wire Wire Line
@@ -730,7 +723,6 @@ Wire Wire Line
 Wire Wire Line
 	9050 1250 9200 1250
 Connection ~ 9050 1250
-<<<<<<< HEAD
 $Comp
 L Connector:Conn_01x07_Female J2
 U 1 1 5E4021BE
@@ -779,14 +771,6 @@ F 3 "" H 9700 5200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9700 5200 10000 5200
-=======
->>>>>>> 6af647563c79b16c849df03644761f4e6566670c
-Connection ~ 7700 1450
-Wire Wire Line
-	7700 1450 7700 1850
-Connection ~ 8200 1850
-Wire Wire Line
-	8200 1850 8750 1850
 Wire Wire Line
 	3850 4300 4050 4300
 Connection ~ 3850 4300
@@ -1251,12 +1235,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 5800 3300 5900
 Connection ~ 3300 5900
-Wire Wire Line
-	4050 6200 4200 6200
-Wire Wire Line
-	4050 6200 4050 6100
-Wire Wire Line
-	4050 6100 4200 6100
 Connection ~ 4050 6200
 Text Label 3950 6500 2    50   ~ 0
 +15V
@@ -1425,4 +1403,8 @@ F 3 "" H 4400 5550 50  0001 C CNN
 	1    4400 5550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7700 1350 7700 1850
+Wire Wire Line
+	7700 1850 8750 1850
 $EndSCHEMATC
