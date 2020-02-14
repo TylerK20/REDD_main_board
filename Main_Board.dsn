@@ -33,8 +33,7 @@
     )
   )
   (placement
-    (component Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
-      (place RV1 52000 -37000 front 0 (PN 100))
+    (component Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder
       (place C7 52000 -43000 front 180 (PN 20pF))
     )
     (component Diode_SMD:D_SMC
@@ -109,7 +108,7 @@
     )
   )
   (library
-    (image Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+    (image Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder
       (outline (path signal 50  2450 -1120  -2450 -1120))
       (outline (path signal 50  2450 1120  2450 -1120))
       (outline (path signal 50  -2450 1120  2450 1120))
@@ -580,10 +579,10 @@
       (pins C7-1 U1-9 U1-2 U1-1)
     )
     (net "Net-(RV1-Pad2)"
-      (pins RV1-2 U1-7)
+      (pins U1-7)
     )
     (net "Net-(RV1-Pad1)"
-      (pins RV1-1 U1-6)
+      (pins U1-6)
     )
     (net /MSP430_P2.3
       (pins U1-28)
