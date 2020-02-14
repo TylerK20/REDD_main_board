@@ -697,27 +697,8 @@ Wire Wire Line
 Connection ~ 950  2500
 Wire Wire Line
 	6000 1400 6000 1900
-$Comp
-L AD667_12-bit_DAC:AD667 U?
-U 1 1 5E33FF68
-P 4400 5550
-F 0 "U?" H 4800 4500 50  0000 C CNN
-F 1 "AD667" H 4800 4600 50  0000 C CNN
-F 2 "REDD_main_board:AD667_12-bit_DAC" H 4400 5550 50  0001 C CNN
-F 3 "" H 4400 5550 50  0001 C CNN
-	1    4400 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4200 6100 4050 6100
-Wire Wire Line
-	4050 6100 4050 6200
-Wire Wire Line
-	4050 6200 4200 6200
 Wire Wire Line
 	4200 6500 3950 6500
-Text Label 3950 6500 0    50   ~ 0
-+15V
 Wire Wire Line
 	8700 1350 8700 1250
 Wire Wire Line
@@ -740,7 +721,7 @@ U 1 1 5E4021BE
 P 10200 5200
 F 0 "J2" H 10228 5226 50  0000 L CNN
 F 1 "Conn_01x07_Female" H 10228 5135 50  0000 L CNN
-F 2 "" H 10200 5200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 10200 5200 50  0001 C CNN
 F 3 "~" H 10200 5200 50  0001 C CNN
 	1    10200 5200
 	1    0    0    -1  
@@ -1180,6 +1161,205 @@ F 1 "LM723_TO100" H 1850 4150 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-100-10" H 1975 3900 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm723.pdf" H 1850 4150 50  0001 C CNN
 	1    1950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E465F6F
+P 3600 6050
+F 0 "C?" H 3715 6096 50  0000 L CNN
+F 1 "20pF" H 3715 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3638 5900 50  0001 C CNN
+F 3 "~" H 3600 6050 50  0001 C CNN
+	1    3600 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5900 4200 5900
+Wire Wire Line
+	3600 5900 3300 5900
+Wire Wire Line
+	3300 5900 3300 6600
+Wire Wire Line
+	3300 6600 4200 6600
+Connection ~ 3600 5900
+Wire Wire Line
+	4200 5800 3300 5800
+Wire Wire Line
+	3300 5800 3300 5900
+Connection ~ 3300 5900
+Wire Wire Line
+	4050 6200 4200 6200
+Wire Wire Line
+	4050 6200 4050 6100
+Wire Wire Line
+	4050 6100 4200 6100
+Connection ~ 4050 6200
+Text Label 3950 6500 2    50   ~ 0
++15V
+$Comp
+L power:GND #PWR?
+U 1 1 5E498D13
+P 4050 6200
+F 0 "#PWR?" H 4050 5950 50  0001 C CNN
+F 1 "GND" H 4150 6250 50  0000 C CNN
+F 2 "" H 4050 6200 50  0001 C CNN
+F 3 "" H 4050 6200 50  0001 C CNN
+	1    4050 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6300 2950 6300
+Wire Wire Line
+	2950 6300 2950 6350
+Wire Wire Line
+	4200 6400 3100 6400
+Wire Wire Line
+	3100 6400 3100 6500
+Connection ~ 3100 6500
+Wire Wire Line
+	3100 6750 2950 6750
+Wire Wire Line
+	2950 6750 2950 6650
+$Comp
+L Device:R_POT RV?
+U 1 1 5E4EA4E9
+P 2950 6500
+F 0 "RV?" H 2881 6546 50  0000 R CNN
+F 1 "100" H 2881 6455 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2950 6500 50  0001 C CNN
+F 3 "~" H 2950 6500 50  0001 C CNN
+	1    2950 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6700 3950 6700
+Wire Wire Line
+	3100 6500 3100 6750
+Text Label 3950 6700 2    50   ~ 0
+-15V
+$Comp
+L power:GND #PWR?
+U 1 1 5E508349
+P 5450 7000
+F 0 "#PWR?" H 5450 6750 50  0001 C CNN
+F 1 "GND" H 5450 6850 50  0000 C CNN
+F 2 "" H 5450 7000 50  0001 C CNN
+F 3 "" H 5450 7000 50  0001 C CNN
+	1    5450 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E508DD9
+P 4200 6900
+F 0 "#PWR?" H 4200 6650 50  0001 C CNN
+F 1 "GND" H 4200 6750 50  0000 C CNN
+F 2 "" H 4200 6900 50  0001 C CNN
+F 3 "" H 4200 6900 50  0001 C CNN
+	1    4200 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E509992
+P 4200 7000
+F 0 "#PWR?" H 4200 6750 50  0001 C CNN
+F 1 "GND" H 4200 6850 50  0000 C CNN
+F 2 "" H 4200 7000 50  0001 C CNN
+F 3 "" H 4200 7000 50  0001 C CNN
+	1    4200 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E509B96
+P 4200 7100
+F 0 "#PWR?" H 4200 6850 50  0001 C CNN
+F 1 "GND" H 4200 6950 50  0000 C CNN
+F 2 "" H 4200 7100 50  0001 C CNN
+F 3 "" H 4200 7100 50  0001 C CNN
+	1    4200 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E509E52
+P 5450 7100
+F 0 "#PWR?" H 5450 6850 50  0001 C CNN
+F 1 "GND" H 5450 6950 50  0000 C CNN
+F 2 "" H 5450 7100 50  0001 C CNN
+F 3 "" H 5450 7100 50  0001 C CNN
+	1    5450 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4200 6800 3950 6800
+Text Label 3950 6800 2    50   ~ 0
+MSP430_gpio
+Wire Wire Line
+	5450 5800 5650 5800
+Wire Wire Line
+	5450 5900 5650 5900
+Wire Wire Line
+	5450 6000 5650 6000
+Wire Wire Line
+	5450 6100 5650 6100
+Wire Wire Line
+	5450 6200 5650 6200
+Wire Wire Line
+	5450 6300 5650 6300
+Wire Wire Line
+	5450 6400 5650 6400
+Wire Wire Line
+	5450 6500 5650 6500
+Wire Wire Line
+	5450 6600 5650 6600
+Wire Wire Line
+	5450 6700 5650 6700
+Wire Wire Line
+	5450 6800 5650 6800
+Wire Wire Line
+	5450 6900 5650 6900
+Wire Wire Line
+	3950 6200 3950 6000
+Wire Wire Line
+	3950 6000 4200 6000
+Wire Wire Line
+	3600 6200 3950 6200
+Text Label 5650 6900 0    50   ~ 0
+MSP430_P1.0
+Text Label 5650 6800 0    50   ~ 0
+MSP430_P1.1
+Text Label 5650 6700 0    50   ~ 0
+MSP430_P1.2
+Text Label 5650 6600 0    50   ~ 0
+MSP430_P1.3
+Text Label 5650 6500 0    50   ~ 0
+MSP430_P1.4
+Text Label 5650 6400 0    50   ~ 0
+MSP430_P1.5
+Text Label 5650 6300 0    50   ~ 0
+MSP430_P1.6
+Text Label 5650 6200 0    50   ~ 0
+MSP430_P1.7
+Text Label 5650 6100 0    50   ~ 0
+MSP430_P2.0
+Text Label 5650 6000 0    50   ~ 0
+MSP430_P2.1
+Text Label 5650 5900 0    50   ~ 0
+MSP430_P2.2
+Text Label 5650 5800 0    50   ~ 0
+MSP430_P2.3
+$Comp
+L AD667_12-bit_DAC:AD667 U?
+U 1 1 5E33FF68
+P 4400 5550
+F 0 "U?" H 4800 4500 50  0000 C CNN
+F 1 "AD667" H 5200 5400 50  0000 C CNN
+F 2 "REDD_main_board:AD667_12-bit_DAC" H 4400 5550 50  0001 C CNN
+F 3 "" H 4400 5550 50  0001 C CNN
+	1    4400 5550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
