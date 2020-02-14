@@ -1141,28 +1141,6 @@ Wire Wire Line
 Wire Wire Line
 	800  950  2150 950 
 $Comp
-L Connector:Conn_01x10_Male J3
-U 1 1 5E48A31D
-P 10200 4100
-F 0 "J3" H 10308 4681 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 10308 4590 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 10200 4100 50  0001 C CNN
-F 3 "~" H 10200 4100 50  0001 C CNN
-	1    10200 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x10_Male J4
-U 1 1 5E48AEC7
-P 10200 5350
-F 0 "J4" H 10308 5931 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 10308 5840 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 10200 5350 50  0001 C CNN
-F 3 "~" H 10200 5350 50  0001 C CNN
-	1    10200 5350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C7
 U 1 1 5E465F6F
 P 3600 6050
