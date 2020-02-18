@@ -1114,28 +1114,6 @@ Wire Wire Line
 	8000 2850 8000 2950
 Wire Wire Line
 	5700 2850 5700 2950
-$Comp
-L Connector:Conn_01x10_Male J1
-U 1 1 5E460B98
-P 10200 1450
-F 0 "J1" H 10308 2031 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 10308 1940 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 10200 1450 50  0001 C CNN
-F 3 "~" H 10200 1450 50  0001 C CNN
-	1    10200 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x10_Male J2
-U 1 1 5E462C6C
-P 10200 2800
-F 0 "J2" H 10308 3381 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 10308 3290 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 10200 2800 50  0001 C CNN
-F 3 "~" H 10200 2800 50  0001 C CNN
-	1    10200 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	800  950  800  1050
 Wire Wire Line
@@ -1326,4 +1304,48 @@ Wire Wire Line
 	7700 1350 7700 1850
 Wire Wire Line
 	7700 1850 8750 1850
+$Comp
+L Connector:Conn_01x12_Male J?
+U 1 1 5E4D2B89
+P 10500 1250
+F 0 "J?" H 10608 1931 50  0000 C CNN
+F 1 "Conn_01x12_Male" H 10608 1840 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 10500 1250 50  0001 C CNN
+F 3 "~" H 10500 1250 50  0001 C CNN
+	1    10500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Male J?
+U 1 1 5E4D3B9D
+P 10500 2600
+F 0 "J?" H 10608 3281 50  0000 C CNN
+F 1 "Conn_01x12_Male" H 10608 3190 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 10500 2600 50  0001 C CNN
+F 3 "~" H 10500 2600 50  0001 C CNN
+	1    10500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Male J?
+U 1 1 5E4D3CFB
+P 10500 4000
+F 0 "J?" H 10608 4681 50  0000 C CNN
+F 1 "Conn_01x12_Male" H 10608 4590 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 10500 4000 50  0001 C CNN
+F 3 "~" H 10500 4000 50  0001 C CNN
+	1    10500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Male J?
+U 1 1 5E4D68E0
+P 10500 5400
+F 0 "J?" H 10608 6081 50  0000 C CNN
+F 1 "Conn_01x12_Male" H 10608 5990 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 10500 5400 50  0001 C CNN
+F 3 "~" H 10500 5400 50  0001 C CNN
+	1    10500 5400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
