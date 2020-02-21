@@ -1562,5 +1562,6 @@ Text Label 9000 6200 0    50   ~ 0
 -15V
 Text Label 9000 6300 0    50   ~ 0
 Vin
-NoConn ~ 9000 6400
+Text Label 9000 6400 0    50   ~ 0
+GridStack
 $EndSCHEMATC

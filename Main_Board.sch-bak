@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Main_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1469,15 +1470,6 @@ Wire Wire Line
 	8800 6100 9000 6100
 Wire Wire Line
 	8800 5300 9000 5300
-NoConn ~ 9000 5600
-NoConn ~ 9000 5700
-NoConn ~ 9000 5800
-NoConn ~ 9000 5900
-NoConn ~ 9000 6000
-NoConn ~ 9000 6100
-NoConn ~ 9000 6300
-NoConn ~ 9000 6200
-NoConn ~ 9000 6400
 Wire Notes Line
 	6950 4850 6950 6550
 $Comp
@@ -1554,4 +1546,21 @@ F 3 "" H 4800 7250 50  0001 C CNN
 $EndComp
 Text Notes 5050 7300 0    79   Italic 16
 Gain of 1.2 = 1 + (Rf / R1)
+Text Label 9000 5600 0    50   ~ 0
++15V
+Text Label 9000 5700 0    50   ~ 0
++5V
+Text Label 9000 5800 0    50   ~ 0
++3V
+Text Label 9000 5900 0    50   ~ 0
+GND
+Text Label 9000 6000 0    50   ~ 0
+-3V
+Text Label 9000 6100 0    50   ~ 0
+-5V
+Text Label 9000 6200 0    50   ~ 0
+-15V
+Text Label 9000 6300 0    50   ~ 0
+Vin
+NoConn ~ 9000 6400
 $EndSCHEMATC
