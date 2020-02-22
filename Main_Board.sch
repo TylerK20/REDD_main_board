@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Main_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1429,8 +1428,6 @@ Connection ~ 8250 1800
 Wire Wire Line
 	8250 1800 8800 1800
 Wire Notes Line
-	4350 5700 4350 7800
-Wire Notes Line
 	6950 4850 11250 4850
 Text Notes 550  700  0    79   Italic 16
 Power Distribution\n
@@ -1564,4 +1561,10 @@ Text Label 9000 6300 0    50   ~ 0
 Vin
 Text Label 9000 6400 0    50   ~ 0
 GridStack
+Text Notes 4400 5650 0    79   Italic 16
+DAC Output Amplification of 1.2
+Wire Notes Line
+	4350 5500 6950 5500
+Wire Notes Line
+	4350 5500 4350 7800
 $EndSCHEMATC
