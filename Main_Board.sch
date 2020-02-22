@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Main_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1299,10 +1300,6 @@ Text Label 3500 6250 0    50   ~ 0
 MSP430_P2.2_Bit10
 Text Label 3500 6150 0    50   ~ 0
 MSP430_P2.3_Bit11
-Wire Wire Line
-	7750 1300 7750 1400
-Wire Wire Line
-	7750 1800 8250 1800
 $Comp
 L Connector:Conn_01x12_Male J1
 U 1 1 5E4D2B89
@@ -1421,12 +1418,6 @@ Wire Notes Line
 	500  5700 4350 5700
 Text Notes 550  5850 0    79   Italic 16
 DAC 12-Bit
-Connection ~ 7750 1400
-Wire Wire Line
-	7750 1400 7750 1800
-Connection ~ 8250 1800
-Wire Wire Line
-	8250 1800 8800 1800
 Wire Notes Line
 	6950 4850 11250 4850
 Text Notes 550  700  0    79   Italic 16
@@ -1567,4 +1558,8 @@ Wire Notes Line
 	4350 5500 6950 5500
 Wire Notes Line
 	4350 5500 4350 7800
+Wire Wire Line
+	7750 1300 7750 1800
+Wire Wire Line
+	7750 1800 8800 1800
 $EndSCHEMATC
