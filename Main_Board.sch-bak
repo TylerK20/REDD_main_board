@@ -1558,12 +1558,12 @@ Wire Notes Line
 Wire Notes Line
 	4350 5500 4350 7800
 $Comp
-L Analog_DAC:AD558JN U?
+L Analog_DAC:AD558JN U3
 U 1 1 5E52E7AD
 P 10400 3400
-F 0 "U?" H 10400 4381 50  0000 C CNN
+F 0 "U3" H 10400 4381 50  0000 C CNN
 F 1 "AD558JN" H 10400 4290 50  0000 C CNN
-F 2 "" H 10400 3400 50  0001 C CIN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 10400 3400 50  0001 C CIN
 F 3 "https://www.analog.com/static/imported-files/data_sheets/AD558.pdf" H 10400 3350 50  0001 C CNN
 	1    10400 3400
 	1    0    0    -1  

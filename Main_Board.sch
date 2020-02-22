@@ -1324,45 +1324,45 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5E4EA3AF
-P 10150 6300
-F 0 "H1" H 10250 6346 50  0000 L CNN
-F 1 "MountingHole" H 10250 6255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 10150 6300 50  0001 C CNN
-F 3 "~" H 10150 6300 50  0001 C CNN
-	1    10150 6300
+P 10200 6350
+F 0 "H1" H 10300 6396 50  0000 L CNN
+F 1 "MountingHole" H 10300 6305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 10200 6350 50  0001 C CNN
+F 3 "~" H 10200 6350 50  0001 C CNN
+	1    10200 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5E4EB209
-P 10400 6300
-F 0 "H2" H 10500 6346 50  0000 L CNN
-F 1 "MountingHole" H 10500 6255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 10400 6300 50  0001 C CNN
-F 3 "~" H 10400 6300 50  0001 C CNN
-	1    10400 6300
+P 10450 6350
+F 0 "H2" H 10550 6396 50  0000 L CNN
+F 1 "MountingHole" H 10550 6305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 10450 6350 50  0001 C CNN
+F 3 "~" H 10450 6350 50  0001 C CNN
+	1    10450 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5E4EB42E
-P 10650 6300
-F 0 "H3" H 10750 6346 50  0000 L CNN
-F 1 "MountingHole" H 10750 6255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 10650 6300 50  0001 C CNN
-F 3 "~" H 10650 6300 50  0001 C CNN
-	1    10650 6300
+P 10700 6350
+F 0 "H3" H 10800 6396 50  0000 L CNN
+F 1 "MountingHole" H 10800 6305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 10700 6350 50  0001 C CNN
+F 3 "~" H 10700 6350 50  0001 C CNN
+	1    10700 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5E4EB541
-P 10900 6300
-F 0 "H4" H 11000 6346 50  0000 L CNN
-F 1 "MountingHole" H 11000 6255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 10900 6300 50  0001 C CNN
-F 3 "~" H 10900 6300 50  0001 C CNN
-	1    10900 6300
+P 10950 6350
+F 0 "H4" H 11050 6396 50  0000 L CNN
+F 1 "MountingHole" H 11050 6305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 10950 6350 50  0001 C CNN
+F 3 "~" H 10950 6350 50  0001 C CNN
+	1    10950 6350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1560,12 +1560,12 @@ Wire Notes Line
 $Comp
 L Analog_DAC:AD558JN U3
 U 1 1 5E52E7AD
-P 10400 3400
-F 0 "U3" H 10400 4381 50  0000 C CNN
-F 1 "AD558JN" H 10400 4290 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 10400 3400 50  0001 C CIN
-F 3 "https://www.analog.com/static/imported-files/data_sheets/AD558.pdf" H 10400 3350 50  0001 C CNN
-	1    10400 3400
+P 10500 1550
+F 0 "U3" H 10500 2531 50  0000 C CNN
+F 1 "AD558JN" H 10500 2440 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 10500 1550 50  0001 C CIN
+F 3 "https://www.analog.com/static/imported-files/data_sheets/AD558.pdf" H 10500 1500 50  0001 C CNN
+	1    10500 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
