@@ -1669,12 +1669,12 @@ $EndComp
 Text Label 9850 4800 0    50   ~ 0
 +15V
 $Comp
-L Connector:Conn_01x09_Male J?
+L Connector:Conn_01x09_Male J3
 U 1 1 5E7C84B4
 P 9900 6000
-F 0 "J?" H 9950 5550 50  0000 C CNN
+F 0 "J3" H 9950 5550 50  0000 C CNN
 F 1 "8-Bit DAC_CEM_Control" H 10350 6500 50  0000 C CNN
-F 2 "" H 9900 6000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 9900 6000 50  0001 C CNN
 F 3 "~" H 9900 6000 50  0001 C CNN
 	1    9900 6000
 	1    0    0    -1  
@@ -1697,4 +1697,29 @@ Text Label 10100 6300 0    50   ~ 0
 MSP430_P3.3_Bit7
 Text Label 10100 6400 0    50   ~ 0
 CEM_Trans_Base_Vol
+Wire Wire Line
+	9250 3900 9250 4200
+Wire Wire Line
+	9250 3700 9250 3400
+Connection ~ 9250 3400
+Wire Wire Line
+	9250 3700 9050 3700
+Wire Wire Line
+	9050 4800 9850 4800
+Connection ~ 9250 3700
+$Comp
+L Device:C C?
+U 1 1 5E5EB6F5
+P 9050 4400
+F 0 "C?" H 9165 4446 50  0000 L CNN
+F 1 "0.1u" H 9165 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9088 4250 50  0001 C CNN
+F 3 "~" H 9050 4400 50  0001 C CNN
+	1    9050 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 3700 9050 4250
+Wire Wire Line
+	9050 4800 9050 4550
 $EndSCHEMATC
