@@ -1527,23 +1527,23 @@ F 3 "" H 4800 7250 50  0001 C CNN
 $EndComp
 Text Notes 5050 7300 0    79   Italic 16
 Gain of 1.2 = 1 + (Rf / R1)
-Text Label 8800 5600 0    50   ~ 0
--15V
-Text Label 8800 5700 0    50   ~ 0
--5V
-Text Label 8800 5800 0    50   ~ 0
--3V
-Text Label 8800 5900 0    50   ~ 0
-GND
-Text Label 8800 6000 0    50   ~ 0
-+3V
 Text Label 8800 6100 0    50   ~ 0
+-15V
+Text Label 8800 6000 0    50   ~ 0
+-5V
+Text Label 8800 5900 0    50   ~ 0
+-3V
+Text Label 8800 5800 0    50   ~ 0
+GND
+Text Label 8800 5700 0    50   ~ 0
++3V
+Text Label 8800 5600 0    50   ~ 0
 +5V
-Text Label 8800 6200 0    50   ~ 0
+Text Label 8800 5500 0    50   ~ 0
 +15V
-Text Label 8800 6300 0    50   ~ 0
+Text Label 8800 5400 0    50   ~ 0
 Vin
-Text Label 8800 6400 0    50   ~ 0
+Text Label 8800 5300 0    50   ~ 0
 GridStack
 Text Notes 4400 5650 0    79   Italic 16
 DAC Output Amplification of 1.2
@@ -1726,9 +1726,9 @@ Text Label 9600 6200 0    50   ~ 0
 MSP430_P2.5_filamentCurrent
 Text Label 9600 6300 0    50   ~ 0
 MSP430_P2.7_cemMeasure
-NoConn ~ 8800 5500
-NoConn ~ 8800 5400
 NoConn ~ 9600 6100
-Text Label 8800 5300 0    50   ~ 0
+Text Label 8800 6400 0    50   ~ 0
 -200V
+NoConn ~ 8800 6200
+NoConn ~ 8800 6300
 $EndSCHEMATC
