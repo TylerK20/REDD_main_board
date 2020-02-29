@@ -1560,107 +1560,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 1800 8000 1750
 Connection ~ 8000 1750
-Text Label 10450 3700 0    50   ~ 0
-MSP430_P3.3_Bit7
-Text Label 10450 3800 0    50   ~ 0
-MSP430_P3.2_Bit6
-Text Label 10450 3900 0    50   ~ 0
-MSP430_P3.1_Bit5
-Text Label 10450 4000 0    50   ~ 0
-MSP430_P3.0_Bit4
-Text Label 10450 4100 0    50   ~ 0
-MSP430_P2.7_Bit3
-Text Label 10450 4200 0    50   ~ 0
-MSP430_P2.6_Bit2
-Text Label 10450 4300 0    50   ~ 0
-MSP430_P2.5_Bit1
-Text Label 10450 4400 0    50   ~ 0
-MSP430_P2.4_Bit0
-Wire Wire Line
-	9850 3100 9850 3050
-Wire Wire Line
-	9850 4700 9850 4800
-Wire Wire Line
-	9350 3400 9250 3400
-Wire Wire Line
-	9350 3700 9250 3700
-Wire Wire Line
-	9350 3900 9250 3900
-Wire Wire Line
-	9350 4200 9250 4200
-Wire Wire Line
-	10350 3700 10450 3700
-Wire Wire Line
-	10350 3800 10450 3800
-Wire Wire Line
-	10350 3900 10450 3900
-Wire Wire Line
-	10350 4000 10450 4000
-Wire Wire Line
-	10350 4100 10450 4100
-Wire Wire Line
-	10350 4200 10450 4200
-Wire Wire Line
-	10350 4300 10450 4300
-Wire Wire Line
-	10350 4400 10450 4400
-$Comp
-L Analog_DAC:AD558JN U3
-U 1 1 5E52E7AD
-P 9850 3900
-F 0 "U3" H 10150 3200 50  0000 C CNN
-F 1 "AD558JN" H 10050 4600 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 9850 3900 50  0001 C CIN
-F 3 "https://www.analog.com/static/imported-files/data_sheets/AD558.pdf" H 9850 3850 50  0001 C CNN
-	1    9850 3900
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5E7B08E9
-P 10350 3400
-F 0 "#PWR0102" H 10350 3150 50  0001 C CNN
-F 1 "GND" H 10350 3250 50  0000 C CNN
-F 2 "" H 10350 3400 50  0001 C CNN
-F 3 "" H 10350 3400 50  0001 C CNN
-	1    10350 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5E7B1542
-P 10350 3500
-F 0 "#PWR0103" H 10350 3250 50  0001 C CNN
-F 1 "GND" H 10350 3350 50  0000 C CNN
-F 2 "" H 10350 3500 50  0001 C CNN
-F 3 "" H 10350 3500 50  0001 C CNN
-	1    10350 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0104
-U 1 1 5E7B174D
-P 9250 3400
-F 0 "#PWR0104" H 9250 3150 50  0001 C CNN
-F 1 "GND" H 9250 3250 50  0000 C CNN
-F 2 "" H 9250 3400 50  0001 C CNN
-F 3 "" H 9250 3400 50  0001 C CNN
-	1    9250 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5E7B21AF
-P 9850 3050
-F 0 "#PWR0105" H 9850 2800 50  0001 C CNN
-F 1 "GND" H 9850 2900 50  0000 C CNN
-F 2 "" H 9850 3050 50  0001 C CNN
-F 3 "" H 9850 3050 50  0001 C CNN
-	1    9850 3050
-	-1   0    0    1   
-$EndComp
-Text Label 9850 4800 0    50   ~ 0
-+15V
 Text Label 9600 5300 0    50   ~ 0
 MSP430_P2.4_Bit0
 Text Label 9600 5400 0    50   ~ 0
@@ -1677,40 +1576,8 @@ Text Label 9600 5900 0    50   ~ 0
 MSP430_P3.2_Bit6
 Text Label 9600 6000 0    50   ~ 0
 MSP430_P3.3_Bit7
-Wire Wire Line
-	9250 3700 9250 3400
-Connection ~ 9250 3400
-Wire Wire Line
-	9250 3700 9050 3700
-Wire Wire Line
-	9050 4800 9850 4800
-Connection ~ 9250 3700
-$Comp
-L Device:C C20
-U 1 1 5E5EB6F5
-P 9050 4400
-F 0 "C20" H 9165 4446 50  0000 L CNN
-F 1 "0.1u" H 9165 4355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9088 4250 50  0001 C CNN
-F 3 "~" H 9050 4400 50  0001 C CNN
-	1    9050 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 3700 9050 4250
-Wire Wire Line
-	9050 4800 9050 4550
 Text Label 9600 6400 0    50   ~ 0
 MSP430_P2.6_transistorBaseVoltage
-Text Label 8100 4100 0    50   ~ 0
-MSP430_P2.6_transistorBaseVoltage
-Wire Wire Line
-	8100 4100 9250 4100
-Wire Wire Line
-	9250 3900 9250 4100
-Connection ~ 9250 4100
-Wire Wire Line
-	9250 4100 9250 4200
 $Comp
 L Connector:Conn_01x12_Male J3
 U 1 1 5E603C7A
