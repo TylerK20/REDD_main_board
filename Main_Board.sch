@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Main_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1314,7 +1315,7 @@ L Connector:Conn_01x12_Male J2
 U 1 1 5E4D3B9D
 P 8400 5800
 F 0 "J2" H 8450 5150 50  0000 C CNN
-F 1 "Measurement_Header" H 8800 6450 50  0000 C CNN
+F 1 "Bias_Header" H 8800 6450 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8400 5800 50  0001 C CNN
 F 3 "~" H 8400 5800 50  0001 C CNN
 	1    8400 5800
@@ -1323,45 +1324,45 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5E4EA3AF
-P 6800 5350
-F 0 "H1" H 6900 5396 50  0000 L CNN
-F 1 "MountingHole" H 6900 5305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 6800 5350 50  0001 C CNN
-F 3 "~" H 6800 5350 50  0001 C CNN
-	1    6800 5350
+P 11050 5800
+F 0 "H1" H 11150 5846 50  0000 L CNN
+F 1 "MountingHole" H 11150 5755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 11050 5800 50  0001 C CNN
+F 3 "~" H 11050 5800 50  0001 C CNN
+	1    11050 5800
 	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5E4EB209
-P 6800 5100
-F 0 "H2" H 6900 5146 50  0000 L CNN
-F 1 "MountingHole" H 6900 5055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 6800 5100 50  0001 C CNN
-F 3 "~" H 6800 5100 50  0001 C CNN
-	1    6800 5100
+P 11050 5550
+F 0 "H2" H 11150 5596 50  0000 L CNN
+F 1 "MountingHole" H 11150 5505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 11050 5550 50  0001 C CNN
+F 3 "~" H 11050 5550 50  0001 C CNN
+	1    11050 5550
 	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5E4EB42E
-P 6800 4850
-F 0 "H3" H 6900 4896 50  0000 L CNN
-F 1 "MountingHole" H 6900 4805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 6800 4850 50  0001 C CNN
-F 3 "~" H 6800 4850 50  0001 C CNN
-	1    6800 4850
+P 11050 5300
+F 0 "H3" H 11150 5346 50  0000 L CNN
+F 1 "MountingHole" H 11150 5255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 11050 5300 50  0001 C CNN
+F 3 "~" H 11050 5300 50  0001 C CNN
+	1    11050 5300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5E4EB541
-P 6800 4600
-F 0 "H4" H 6900 4646 50  0000 L CNN
-F 1 "MountingHole" H 6900 4555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 6800 4600 50  0001 C CNN
-F 3 "~" H 6800 4600 50  0001 C CNN
-	1    6800 4600
+P 11050 5050
+F 0 "H4" H 11150 5096 50  0000 L CNN
+F 1 "MountingHole" H 11150 5005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 11050 5050 50  0001 C CNN
+F 3 "~" H 11050 5050 50  0001 C CNN
+	1    11050 5050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -1404,12 +1405,6 @@ Wire Wire Line
 	8600 6300 8800 6300
 Wire Wire Line
 	8600 6400 8800 6400
-Text Label 8800 5300 0    50   ~ 0
-MSP430_P2.5_filamentCurrent
-Text Label 8800 5400 0    50   ~ 0
-MSP430_P2.6_transistorBaseVoltage
-Text Label 8800 5500 0    50   ~ 0
-MSP430_P2.7_cemMeasure
 Text Notes 7050 5000 0    79   Italic 16
 Headers / Mounting
 Wire Notes Line
@@ -1533,19 +1528,19 @@ $EndComp
 Text Notes 5050 7300 0    79   Italic 16
 Gain of 1.2 = 1 + (Rf / R1)
 Text Label 8800 5600 0    50   ~ 0
-+15V
+-15V
 Text Label 8800 5700 0    50   ~ 0
-+5V
+-5V
 Text Label 8800 5800 0    50   ~ 0
-+3V
+-3V
 Text Label 8800 5900 0    50   ~ 0
 GND
 Text Label 8800 6000 0    50   ~ 0
--3V
++3V
 Text Label 8800 6100 0    50   ~ 0
--5V
++5V
 Text Label 8800 6200 0    50   ~ 0
--15V
++15V
 Text Label 8800 6300 0    50   ~ 0
 Vin
 Text Label 8800 6400 0    50   ~ 0
@@ -1565,8 +1560,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 1800 8000 1750
 Connection ~ 8000 1750
-Text Label 9250 4200 2    50   ~ 0
-CEM_Trans_Base_Vol
 Text Label 10450 3700 0    50   ~ 0
 MSP430_P3.3_Bit7
 Text Label 10450 3800 0    50   ~ 0
@@ -1668,37 +1661,22 @@ F 3 "" H 9850 3050 50  0001 C CNN
 $EndComp
 Text Label 9850 4800 0    50   ~ 0
 +15V
-$Comp
-L Connector:Conn_01x09_Male J3
-U 1 1 5E7C84B4
-P 9900 6000
-F 0 "J3" H 9950 5550 50  0000 C CNN
-F 1 "8-Bit DAC_CEM_Control" H 10350 6500 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 9900 6000 50  0001 C CNN
-F 3 "~" H 9900 6000 50  0001 C CNN
-	1    9900 6000
-	1    0    0    -1  
-$EndComp
-Text Label 10100 5600 0    50   ~ 0
+Text Label 9600 5300 0    50   ~ 0
 MSP430_P2.4_Bit0
-Text Label 10100 5700 0    50   ~ 0
+Text Label 9600 5400 0    50   ~ 0
 MSP430_P2.5_Bit1
-Text Label 10100 5800 0    50   ~ 0
+Text Label 9600 5500 0    50   ~ 0
 MSP430_P2.6_Bit2
-Text Label 10100 5900 0    50   ~ 0
+Text Label 9600 5600 0    50   ~ 0
 MSP430_P2.7_Bit3
-Text Label 10100 6000 0    50   ~ 0
+Text Label 9600 5700 0    50   ~ 0
 MSP430_P3.0_Bit4
-Text Label 10100 6100 0    50   ~ 0
+Text Label 9600 5800 0    50   ~ 0
 MSP430_P3.1_Bit5
-Text Label 10100 6200 0    50   ~ 0
+Text Label 9600 5900 0    50   ~ 0
 MSP430_P3.2_Bit6
-Text Label 10100 6300 0    50   ~ 0
+Text Label 9600 6000 0    50   ~ 0
 MSP430_P3.3_Bit7
-Text Label 10100 6400 0    50   ~ 0
-CEM_Trans_Base_Vol
-Wire Wire Line
-	9250 3900 9250 4200
 Wire Wire Line
 	9250 3700 9250 3400
 Connection ~ 9250 3400
@@ -1722,4 +1700,35 @@ Wire Wire Line
 	9050 3700 9050 4250
 Wire Wire Line
 	9050 4800 9050 4550
+Text Label 9600 6400 0    50   ~ 0
+MSP430_P2.6_transistorBaseVoltage
+Text Label 8100 4100 0    50   ~ 0
+MSP430_P2.6_transistorBaseVoltage
+Wire Wire Line
+	8100 4100 9250 4100
+Wire Wire Line
+	9250 3900 9250 4100
+Connection ~ 9250 4100
+Wire Wire Line
+	9250 4100 9250 4200
+$Comp
+L Connector:Conn_01x12_Male J3
+U 1 1 5E603C7A
+P 9400 5800
+F 0 "J3" H 9450 5150 50  0000 C CNN
+F 1 "Measurement_Header" H 9800 6450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 9400 5800 50  0001 C CNN
+F 3 "~" H 9400 5800 50  0001 C CNN
+	1    9400 5800
+	1    0    0    -1  
+$EndComp
+Text Label 9600 6200 0    50   ~ 0
+MSP430_P2.5_filamentCurrent
+Text Label 9600 6300 0    50   ~ 0
+MSP430_P2.7_cemMeasure
+NoConn ~ 8800 5500
+NoConn ~ 8800 5400
+NoConn ~ 9600 6100
+Text Label 8800 5300 0    50   ~ 0
+-200V
 $EndSCHEMATC
