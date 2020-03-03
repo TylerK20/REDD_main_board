@@ -12,7 +12,7 @@
   (page A4)
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -38,7 +38,7 @@
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.2)
+    (trace_min 0.25)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -3068,7 +3068,7 @@
   (segment (start 14.3 110.107191) (end 16.709142 112.516333) (width 0.25) (layer F.Cu) (net 56))
   (segment (start 14.3 105) (end 14.3 110.107191) (width 0.25) (layer F.Cu) (net 56))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5E5EED6C) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
