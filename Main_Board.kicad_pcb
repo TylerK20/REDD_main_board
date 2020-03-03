@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 6)
     (tracks 414)
     (zones 0)
     (modules 62)
@@ -2642,6 +2642,12 @@
     )
   )
 
+  (gr_text "REDD's Main Board" (at 78.6 85.3) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "Made by Kris Stone and Tyler Krochmalny" (at 98.6 133.1 90) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 12 81) (end 102 81) (layer Edge.Cuts) (width 0.1) (tstamp 5E518A1F))
   (gr_line (start 102 171) (end 102 81) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 12 171) (end 102 171) (layer Edge.Cuts) (width 0.1) (tstamp 5E51AEAA))
