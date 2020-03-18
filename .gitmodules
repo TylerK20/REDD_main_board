@@ -1,0 +1,3 @@
+[submodule "redd_ucontroller"]
+	path = redd_ucontroller
+	url = https://github.com/nmstamps/REDD_uController.git
