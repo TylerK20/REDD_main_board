@@ -1586,7 +1586,6 @@ NoConn ~ 9600 6100
 Text Label 8800 6400 0    50   ~ 0
 -200V
 NoConn ~ 8800 6200
-NoConn ~ 8800 6300
 $Comp
 L Device:R R16
 U 1 1 5DCC6D68
@@ -1598,4 +1597,6 @@ F 3 "~" H 6550 1100 50  0001 C CNN
 	1    6550 1100
 	1    0    0    -1  
 $EndComp
+Text Label 8800 6300 0    50   ~ 0
+-200_Return
 $EndSCHEMATC

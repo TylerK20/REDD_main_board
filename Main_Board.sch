@@ -1579,7 +1579,7 @@ F 3 "~" H 9400 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9600 6200 0    50   ~ 0
-MSP430_P2.5_filamentCurrent
+MSP430_P2.5_emitterCurrent
 Text Label 9600 6300 0    50   ~ 0
 MSP430_P2.7_cemMeasure
 NoConn ~ 9600 6100
